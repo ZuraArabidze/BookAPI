@@ -13,6 +13,7 @@ namespace BookAPI.Models
         [Required]
         public string PasswordHash { get; set; }
 
+        [Required]
         public string Email { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

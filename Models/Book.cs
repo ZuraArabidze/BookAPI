@@ -20,6 +20,8 @@ namespace BookAPI.Models
 
         public int ViewsCount { get; set; } = 0;
 
+        public bool IsDeleted { get; set; } = false;
+
         public double CalculatePopularityScore()
         {
             int yearsSincePublished = DateTime.Now.Year - PublicationYear;
