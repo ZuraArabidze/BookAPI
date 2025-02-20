@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 
 namespace BookAPI.Controllers
 {
-    [Route("api/[controller")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
