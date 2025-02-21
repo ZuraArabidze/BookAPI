@@ -82,6 +82,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book Management API v1");
+        c.DefaultModelsExpandDepth(-1);
     });
 }
 
